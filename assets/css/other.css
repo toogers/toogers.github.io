@@ -1,45 +1,9 @@
-@keyframes flip {
-	from {transform: scaleX(1);}
-	to {transform: scaleX(-1);}
-}
-
-@-webkit-keyframes flip {
-	from {-webkit-transform: scaleX(1);}
-	to {-webkit-transform: scaleX(-1);}
-}
-
-.text {
-	font-family: sans-serif;
-	color: #FFF;
-}
-
-.title.text {
-	text-shadow: 1px 1px 4px #FFA500;
-}
-
-.centered.text {
-	text-align: center;
-}
-
 html,
 body {
 	background-color: #282829;
 	margin:0;
 	padding:0;
 	height:100%;
-}
-
-a:link, a:visited, a:hover, a:active {
-	color: #FFA500;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:active {
-	text-decoration: underline;
 }
 
 .container {

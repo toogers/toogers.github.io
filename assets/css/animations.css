@@ -1,0 +1,9 @@
+@keyframes flip {
+	from {transform: scaleX(1);}
+	to {transform: scaleX(-1);}
+}
+
+@-webkit-keyframes flip {
+	from {-webkit-transform: scaleX(1);}
+	to {-webkit-transform: scaleX(-1);}
+}

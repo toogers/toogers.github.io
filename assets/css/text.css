@@ -1,0 +1,12 @@
+.text {
+	font-family: sans-serif;
+	color: #FFF;
+}
+
+.title.text {
+	text-shadow: 1px 1px 4px #FFA500;
+}
+
+.centered.text {
+	text-align: center;
+}
