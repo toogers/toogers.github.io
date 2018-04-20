@@ -33,8 +33,11 @@ body {
 	transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
 
-	-webkit-animation-name: flip;
-	-webkit-animation-duration: 4s;
-	animation-name: flip;
-	animation-duration: 4s;
+	-webkit-animation: flip 4s;
+	animation: flip 4s;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
 }
