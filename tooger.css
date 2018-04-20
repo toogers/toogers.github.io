@@ -1,9 +1,56 @@
 .text {
 	font-family: sans-serif;
-	text-align: center;
 	color: #FFF;
 }
 
+.title.text {
+	text-shadow: 1px 1px 4px #FFA500;
+}
+
+.centered.text {
+	text-align: center;
+}
+
+html,
 body {
 	background-color: #282829;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #FFA500;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+.container {
+	min-height: 100%;
+	position: relative;
+}
+
+.header {
+	padding: 10px;
+}
+
+.body {
+	padding: 10px;
+	padding-bottom: 60px;
+}
+
+.footer {
+	text-align: left;
+	color: #EEE;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
 }
