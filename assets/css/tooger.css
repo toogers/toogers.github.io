@@ -78,6 +78,18 @@ hr {
 	background-image: url("../img/twitter.svg");
 }
 
+.card a .social-twitch {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/twitch.svg");
+}
+
+.card a .social-youtube {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/youtube.svg");
+}
+
 .card a .social-steam {
 	width: 32px;
 	height: 32px;
