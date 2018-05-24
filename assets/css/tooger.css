@@ -114,6 +114,12 @@ hr {
 	background-image: url("../img/github.svg");
 }
 
+.card a .social-question {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/question.svg");
+}
+
 .card a {
 	display:inline-block;
 }
