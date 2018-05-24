@@ -12,6 +12,10 @@ body {
 	background-attachment: fixed;
 }
 
+hr {
+	border-color: #282828;
+}
+
 .text {
 	color: #EEE;
 }
@@ -73,15 +77,29 @@ body {
 	height: 32px;
 	background-image: url("../img/twitter.svg");
 }
+
 .card a .social-steam {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/steam.svg");
 }
+
 .card a .social-reddit {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/reddit.svg");
+}
+
+.card a .social-website {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/website.svg");
+}
+
+.card a .social-github {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/github.svg");
 }
 
 .card a {
