@@ -1,0 +1,121 @@
+---
+---
+
+body {
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+hr {
+	border-color: #282828;
+}
+
+.text {
+	color: #EEE;
+}
+
+.transparent-bg {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.titleimg {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+
+.titleimg:hover {
+	-webkit-filter: invert(0.5);
+	filter: invert(0.5);
+}
+
+/* cards */
+.cards {
+	display: block;
+}
+
+.card {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 200px;
+	min-width: 100px;
+}
+
+.card-title {
+	color: #FFA500;
+	font-size: 25px !important;
+}
+
+.card-text {
+	color: #FFF;
+	font-size: 20px !important;
+}
+
+.card-img {
+	border-radius: 50%;
+	width: 64px;
+	height: 64px;
+}
+
+/* social icons */
+.card a {
+	display: inline-block;
+
+	.social-discord {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/discord.svg");
+	}
+
+	.social-twitter {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/twitter.svg");
+	}
+
+	.social-twitch {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/twitch.svg");
+	}
+
+	.social-youtube {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/youtube.svg");
+	}
+
+	.social-steam {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/steam.svg");
+	}
+
+	.social-reddit {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/reddit.svg");
+	}
+
+	.social-website {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/website.svg");
+	}
+
+	.social-github {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/github.svg");
+	}
+
+	.social-question {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/question.svg");
+	}
+}
