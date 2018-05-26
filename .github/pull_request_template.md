@@ -1,3 +1,5 @@
+Before you proceed with your PR, please confirm that (place an X in the box):
+[ ] You have looked at the contribution guidelines in our [discord](https://discord.gg/CaXjxnp)
 ### Summary of the changes made
 * made `index.html` better
 * cucumbers
