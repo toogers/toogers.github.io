@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa");
 
 body {
-	background-image: url("../img/bg.jpg");
+	background-image: url("/assets/img/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -80,55 +80,77 @@ h1 {
 		
 		a {
 			display: inline-block;
-			width: 32px;
-			height: 32px;
 
 			.social-discord {
-				background-image: url("../img/discord.svg");
+				background-image: url("/assets/img/discord.svg");
+				width: 32px;
+				height: 32px;
 			}
 
 			.social-twitter {
-				background-image: url("../img/twitter.svg");
+				background-image: url("/assets/img/twitter.svg");
+				width: 32px;
+				height: 32px;
 			}
 
 			.social-twitch {
-				background-image: url("../img/twitch.svg");
+				background-image: url("/assets/img/twitch.svg");
+				width: 32px;
+				height: 32px;
 			}
 
 			.social-youtube {
-				background-image: url("../img/youtube.svg");
+				background-image: url("/assets/img/youtube.svg");
+				width: 32px;
+				height: 32px;
 			}
 
 			.social-steam {
-				background-image: url("../img/steam.svg");
+				background-image: url("/assets/img/steam.svg");
+				width: 32px;
+				height: 32px;
 			}
 
 			.social-reddit {
-				background-image: url("../img/reddit.svg");
+				background-image: url("/assets/img/reddit.svg");
+				width: 32px;
+				height: 32px;
 			}
 
 			.social-github {
-				background-image: url("../img/github.svg");
+				background-image: url("/assets/img/github.svg");
+				width: 32px;
+				height: 32px;
 			}
 
 			.social-email {
-				background-image: url("../img/email.svg");
+				background-image: url("/assets/img/email.svg");
+				width: 32px;
+				height: 32px;
 			}
 
 			.social-website {
-				background-image: url("../img/website.svg");
+				background-image: url("/assets/img/website.svg");
+				width: 32px;
+				height: 32px;
 			}
 
 			.social-question {
-				background-image: url("../img/question.svg");
+				background-image: url("/assets/img/question.svg");
+				width: 32px;
+				height: 32px;
 			}
 			
 			.social-youtube {
-				background-image: url("../img/youtube.svg");
+				background-image: url("/assets/img/youtube.svg");
+				width: 32px;
+				height: 32px;
 			}
 			
 			.social-vk {
-				background-image: url("../img/vk.svg");
+				background-image: url("/assets/img/vk.svg");
+				width: 32px;
+				height: 32px;
 			}
 		}
 	}
