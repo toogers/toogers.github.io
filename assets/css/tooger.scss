@@ -1,8 +1,10 @@
 ---
 ---
 
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
 body {
-	background-image: url("../img/bg.jpg");
+	background-image: url("/assets/img/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -10,6 +12,10 @@ body {
 
 hr {
 	border-color: #282828;
+}
+
+h1 {
+	font-family: "Comfortaa", cursive;
 }
 
 .text {
@@ -25,35 +31,46 @@ hr {
 	border: 4px solid rgba(40, 40, 40, 0.3);
 }
 
+.btn {
+	height: 3rem;
+	background-color: #282828;
+	color: #EEE;
+	padding: 2px 6px 2px 6px;
+
+	&:hover {
+		color: #FFA500;
+	}
+}
+
 // cards
 .cards {
 	display: block;
-}
 
-.card {
-	display: inline-block;
-	padding: 10px;
-	margin: 5px;
-	border-radius: 5px;
-	background-color: rgba(0, 0, 0, 0.5);
-	min-height: 200px;
-	min-width: 100px;
-}
+	.card {
+		display: inline-block;
+		padding: 10px;
+		margin: 5px;
+		border-radius: 5px;
+		background-color: rgba(0, 0, 0, 0.5);
+		min-height: 200px;
+		min-width: 100px;
 
-.card-title {
-	color: #FFA500;
-	font-size: 25px !important;
-}
+		.card-title {
+			color: #FFA500;
+			font-size: 25px !important;
+		}
 
-.card-text {
-	color: #FFF;
-	font-size: 20px !important;
-}
+		.card-text {
+			color: #FFF;
+			font-size: 20px !important;
+		}
 
-.card-img {
-	border-radius: 50%;
-	width: 64px;
-	height: 64px;
+		.card-img {
+			border-radius: 50%;
+			width: 64px;
+			height: 64px;
+		}
+	}
 }
 
 // social icons
@@ -65,75 +82,75 @@ hr {
 			display: inline-block;
 
 			.social-discord {
+				background-image: url("/assets/img/discord.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/discord.svg");
 			}
 
 			.social-twitter {
+				background-image: url("/assets/img/twitter.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/twitter.svg");
 			}
 
 			.social-twitch {
+				background-image: url("/assets/img/twitch.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/twitch.svg");
 			}
 
 			.social-youtube {
+				background-image: url("/assets/img/youtube.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/youtube.svg");
 			}
 
 			.social-steam {
+				background-image: url("/assets/img/steam.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/steam.svg");
 			}
 
 			.social-reddit {
+				background-image: url("/assets/img/reddit.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/reddit.svg");
 			}
 
 			.social-github {
+				background-image: url("/assets/img/github.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/github.svg");
 			}
 
 			.social-email {
+				background-image: url("/assets/img/email.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/email.svg");
 			}
 
 			.social-website {
+				background-image: url("/assets/img/website.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/website.svg");
 			}
 
 			.social-question {
+				background-image: url("/assets/img/question.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/question.svg");
 			}
 			
 			.social-youtube {
+				background-image: url("/assets/img/youtube.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/youtube.svg");
 			}
 			
 			.social-vk {
+				background-image: url("/assets/img/vk.svg");
 				width: 32px;
 				height: 32px;
-				background-image: url("../img/vk.svg");
 			}
 		}
 	}
