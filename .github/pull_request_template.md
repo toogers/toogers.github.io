@@ -1,6 +1,6 @@
 <!--
 Before you proceed with your Pull request, please confirm that (place an X in the box):
-[X] You have looked at the contribution guidelines in our [discord server](https://discord.gg/CaXjxnp)
+[ ] You have looked at the contribution guidelines in our [discord server](https://discord.gg/CaXjxnp)
 
 Be sure to edit the template below.
 -->
