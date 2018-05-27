@@ -1,3 +1,6 @@
 $(function() {
-  $('#main').smoothState();
+	$('#main').smoothState({
+		cacheLength: 4,
+		prefetch: true
+	});
 });
